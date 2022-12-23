@@ -12,9 +12,9 @@ License:	MIT
 URL:		https://github.com/pavouk/lgi
 Source0:	https://github.com/pavouk/lgi/archive/%{version}/lgi-%{version}.tar.gz
 # see gh#212 (commit a127f82)
-Patch0:         lgi-0.9.2-fix-s390x.patch
+Patch0:		lgi-0.9.2-fix-s390x.patch
 # see gh#215
-Patch1:         lgi-0.9.2-fix-gobject-warnings.patch
+Patch1:		lgi-0.9.2-fix-gobject-warnings.patch
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 0.10.8
 BuildRequires:	pkgconfig(gmodule-2.0)
 BuildRequires:	pkgconfig(libffi)
